@@ -1,0 +1,98 @@
+@import url('https://fonts.google.com/specimen/Big+Shoulders+Display')
+@import url('https://fonts.google.com/specimen/Lexend+Deca')
+
+
+body {
+    background-color: hsl(0, 0%, 95%);
+
+}
+.header{
+    border: 2px solid black;
+    width: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    margin-top: 140px;
+    margin-bottom: 170px;
+    margin-left: 340px;
+    padding: 20px 10px;
+    width: 270px;
+    height: 450px;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    margin-top: 140px;
+    margin-bottom: 170px;
+    margin-left:;
+    padding: 20px 10px;
+    width: 270px;
+    height: 450px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    margin-top: 140px;
+    margin-bottom: 170px;
+    margin-right: 100px;
+    padding: 20px 10px;
+    width: 270px;
+    height: 450px;
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px 0;
+    font-family: 'Big Sholders Display', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 30px; 
+  margin-left: 30px;
+  margin-right: 36px;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  padding: 10px 0 60px 0;
+}
+.sedanimg{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.luxuryimg{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.suvimg{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#learnmore1{
+    color: hsl(31, 77%, 52%);
+}
+#learnmore2{
+    color: hsl(184, 100%, 22%);
+}
+#learnmore3{
+    color: hsl(179, 100%, 13%)
+}
+.container button{
+    outline: 0;
+    margin-left: 30px;
+    border-radius: 36px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    margin-bottom: 40px;
+}
+
+footer{
+    text-align: center;
+}
